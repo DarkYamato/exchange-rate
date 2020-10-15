@@ -1,0 +1,7 @@
+<div class="rate" *ngIf="eur$ | async as value">
+  <div>
+    Курс <span>{{ value.CharCode }} </span>к <span>RUB</span>:
+    <span>{{ value.Value }}</span>
+  </div>
+</div>
+<div class="date">{{ now | date: "dd.MM.yyyy H:mm:ss" }}</div>

@@ -1,0 +1,24 @@
+.rate,
+.date {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.rate {
+  font-size: 30px;
+  margin-top: 150px;
+}
+
+.rate span {
+  font-weight: bold;
+}
+
+.rate span:last-child {
+  color: #2e8e32;
+}
+
+.date {
+  font-size: 20px;
+  margin-top: 20px;
+}
